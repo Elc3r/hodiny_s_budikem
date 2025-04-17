@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/Cellar/avr-gcc@9/9.4.0_1/avr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/Cellar/avr-gcc@9/9.4.0_1/bin/avr-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "macos-gcc-x64",
+            "compilerArgs": [
+                "-mmcu=atmega32a",
+                "-DF_CPU=16000000UL",
+                "-Os"
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

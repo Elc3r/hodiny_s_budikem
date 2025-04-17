@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Upload to AVR",
+            "type": "shell",
+            "command": "avrdude",
+            "args": [
+                "-c", "usbasp",
+                "-p", "m32a",
+                "-U", "flash:w:${workspaceFolder}/Debug/main.hex:i"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "This task uploads the program to the AVR board using avrdude."
+        }
+    ]
+}
