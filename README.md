@@ -15,7 +15,6 @@ Tento projekt implementuje **digitální hodiny s budíkem** na mikrokontroléru
 ## Ovládání
 
 - **Klávesnice 4x4:**
-  - `0–9` – číslice (nepoužívají se přímo, pouze pro rozšíření)
   - `A` (10) – inkrementace hodin v režimu nastavování
   - `B` (11) – inkrementace minut v režimu nastavování
   - `C` (12) – vstup/výstup do režimu nastavování hodin
